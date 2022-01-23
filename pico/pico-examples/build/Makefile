@@ -176,30 +176,17 @@ blink/fast:
 .PHONY : blink/fast
 
 #=============================================================================
-# Target rules for targets named hello_serial
+# Target rules for targets named pico-drone
 
 # Build rule for target.
-hello_serial: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_serial
-.PHONY : hello_serial
+pico-drone: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pico-drone
+.PHONY : pico-drone
 
 # fast build rule for target.
-hello_serial/fast:
-	$(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/build
-.PHONY : hello_serial/fast
-
-#=============================================================================
-# Target rules for targets named hello_usb
-
-# Build rule for target.
-hello_usb: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_usb
-.PHONY : hello_usb
-
-# fast build rule for target.
-hello_usb/fast:
-	$(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/build
-.PHONY : hello_usb/fast
+pico-drone/fast:
+	$(MAKE) -f pico-drone/pico-drone/CMakeFiles/pico-drone.dir/build.make pico-drone/pico-drone/CMakeFiles/pico-drone.dir/build
+.PHONY : pico-drone/fast
 
 #=============================================================================
 # Target rules for targets named adc_console
@@ -1969,8 +1956,7 @@ help:
 	@echo "... bs2_default"
 	@echo "... ELF2UF2Build"
 	@echo "... blink"
-	@echo "... hello_serial"
-	@echo "... hello_usb"
+	@echo "... pico-drone"
 	@echo "... adc_console"
 	@echo "... adc_dma_capture_resistor_dac_pio_h"
 	@echo "... PioasmBuild"

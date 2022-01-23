@@ -36,7 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ali/pico-drone/pico/pico-examples/build/pico-sdk/cmake_install.cmake")
   include("/home/ali/pico-drone/pico/pico-examples/build/blink/cmake_install.cmake")
-  include("/home/ali/pico-drone/pico/pico-examples/build/hello_world/cmake_install.cmake")
+  include("/home/ali/pico-drone/pico/pico-examples/build/pico-drone/cmake_install.cmake")
   include("/home/ali/pico-drone/pico/pico-examples/build/adc/cmake_install.cmake")
   include("/home/ali/pico-drone/pico/pico-examples/build/clocks/cmake_install.cmake")
   include("/home/ali/pico-drone/pico/pico-examples/build/cmake/cmake_install.cmake")
