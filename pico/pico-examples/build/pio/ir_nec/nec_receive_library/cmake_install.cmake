@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/pio/ir_nec/nec_receive_library
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/pio/ir_nec/nec_receive_library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

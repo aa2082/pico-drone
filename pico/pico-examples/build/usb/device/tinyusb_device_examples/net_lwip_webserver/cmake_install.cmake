@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-sdk/lib/tinyusb/examples/device/net_lwip_webserver
+# Install script for directory: /home/ali/pico-drone/pico/pico-sdk/lib/tinyusb/examples/device/net_lwip_webserver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

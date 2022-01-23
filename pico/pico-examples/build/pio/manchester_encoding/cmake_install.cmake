@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/pio/manchester_encoding
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/pio/manchester_encoding
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

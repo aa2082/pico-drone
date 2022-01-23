@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration
+# Install script for directory: /home/ali/pico-drone/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

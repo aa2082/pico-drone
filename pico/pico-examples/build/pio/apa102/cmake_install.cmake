@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/pio/apa102
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/pio/apa102
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

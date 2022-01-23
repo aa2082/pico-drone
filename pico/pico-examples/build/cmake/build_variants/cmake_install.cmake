@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/cmake/build_variants
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/cmake/build_variants
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

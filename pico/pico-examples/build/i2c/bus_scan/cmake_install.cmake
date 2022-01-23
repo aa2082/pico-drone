@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/i2c/bus_scan
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/i2c/bus_scan
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ali/Documents/pico_drone/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ali/pico-drone/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ali/Documents/pico_drone/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ali/pico-drone/pico/pico-examples/build
 
 # Utility rule file for pio_apa102_apa102_pio_h.
 
@@ -57,8 +57,8 @@ pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h: pio/apa102/apa102.pio.h
 
 
 pio/apa102/apa102.pio.h: ../pio/apa102/apa102.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating apa102.pio.h"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/apa102 && ../../pioasm/pioasm -o c-sdk /home/ali/Documents/pico_drone/pico/pico-examples/pio/apa102/apa102.pio /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/apa102/apa102.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating apa102.pio.h"
+	cd /home/ali/pico-drone/pico/pico-examples/build/pio/apa102 && ../../pioasm/pioasm -o c-sdk /home/ali/pico-drone/pico/pico-examples/pio/apa102/apa102.pio /home/ali/pico-drone/pico/pico-examples/build/pio/apa102/apa102.pio.h
 
 pio_apa102_apa102_pio_h: pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h
 pio_apa102_apa102_pio_h: pio/apa102/apa102.pio.h
@@ -72,10 +72,10 @@ pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/build: pio_apa102_apa102_pio_h
 .PHONY : pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/build
 
 pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/clean:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/apa102 && $(CMAKE_COMMAND) -P CMakeFiles/pio_apa102_apa102_pio_h.dir/cmake_clean.cmake
+	cd /home/ali/pico-drone/pico/pico-examples/build/pio/apa102 && $(CMAKE_COMMAND) -P CMakeFiles/pio_apa102_apa102_pio_h.dir/cmake_clean.cmake
 .PHONY : pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/clean
 
 pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/depend:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/Documents/pico_drone/pico/pico-examples /home/ali/Documents/pico_drone/pico/pico-examples/pio/apa102 /home/ali/Documents/pico_drone/pico/pico-examples/build /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/apa102 /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ali/pico-drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/pico-drone/pico/pico-examples /home/ali/pico-drone/pico/pico-examples/pio/apa102 /home/ali/pico-drone/pico/pico-examples/build /home/ali/pico-drone/pico/pico-examples/build/pio/apa102 /home/ali/pico-drone/pico/pico-examples/build/pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/depend
 

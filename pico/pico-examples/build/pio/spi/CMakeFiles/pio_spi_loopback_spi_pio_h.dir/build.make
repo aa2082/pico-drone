@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ali/Documents/pico_drone/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ali/pico-drone/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ali/Documents/pico_drone/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ali/pico-drone/pico/pico-examples/build
 
 # Utility rule file for pio_spi_loopback_spi_pio_h.
 
@@ -57,8 +57,8 @@ pio/spi/CMakeFiles/pio_spi_loopback_spi_pio_h: pio/spi/spi.pio.h
 
 
 pio/spi/spi.pio.h: ../pio/spi/spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating spi.pio.h"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/spi && ../../pioasm/pioasm -o c-sdk /home/ali/Documents/pico_drone/pico/pico-examples/pio/spi/spi.pio /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/spi/spi.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating spi.pio.h"
+	cd /home/ali/pico-drone/pico/pico-examples/build/pio/spi && ../../pioasm/pioasm -o c-sdk /home/ali/pico-drone/pico/pico-examples/pio/spi/spi.pio /home/ali/pico-drone/pico/pico-examples/build/pio/spi/spi.pio.h
 
 pio_spi_loopback_spi_pio_h: pio/spi/CMakeFiles/pio_spi_loopback_spi_pio_h
 pio_spi_loopback_spi_pio_h: pio/spi/spi.pio.h
@@ -72,10 +72,10 @@ pio/spi/CMakeFiles/pio_spi_loopback_spi_pio_h.dir/build: pio_spi_loopback_spi_pi
 .PHONY : pio/spi/CMakeFiles/pio_spi_loopback_spi_pio_h.dir/build
 
 pio/spi/CMakeFiles/pio_spi_loopback_spi_pio_h.dir/clean:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/spi && $(CMAKE_COMMAND) -P CMakeFiles/pio_spi_loopback_spi_pio_h.dir/cmake_clean.cmake
+	cd /home/ali/pico-drone/pico/pico-examples/build/pio/spi && $(CMAKE_COMMAND) -P CMakeFiles/pio_spi_loopback_spi_pio_h.dir/cmake_clean.cmake
 .PHONY : pio/spi/CMakeFiles/pio_spi_loopback_spi_pio_h.dir/clean
 
 pio/spi/CMakeFiles/pio_spi_loopback_spi_pio_h.dir/depend:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/Documents/pico_drone/pico/pico-examples /home/ali/Documents/pico_drone/pico/pico-examples/pio/spi /home/ali/Documents/pico_drone/pico/pico-examples/build /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/spi /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/spi/CMakeFiles/pio_spi_loopback_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ali/pico-drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/pico-drone/pico/pico-examples /home/ali/pico-drone/pico/pico-examples/pio/spi /home/ali/pico-drone/pico/pico-examples/build /home/ali/pico-drone/pico/pico-examples/build/pio/spi /home/ali/pico-drone/pico/pico-examples/build/pio/spi/CMakeFiles/pio_spi_loopback_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/spi/CMakeFiles/pio_spi_loopback_spi_pio_h.dir/depend
 

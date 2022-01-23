@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "5.11.0-43-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/ali/Documents/pico_drone/pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
+include("/home/ali/pico-drone/pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
 
 set(CMAKE_SYSTEM "PICO")
 set(CMAKE_SYSTEM_NAME "PICO")

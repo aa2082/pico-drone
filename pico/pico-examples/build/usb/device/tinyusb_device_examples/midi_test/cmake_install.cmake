@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-sdk/lib/tinyusb/examples/device/midi_test
+# Install script for directory: /home/ali/pico-drone/pico/pico-sdk/lib/tinyusb/examples/device/midi_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ali/Documents/pico_drone/pico/pico-examples/build/usb/device/tinyusb_device_examples/midi_test/pico-sdk/cmake_install.cmake")
+  include("/home/ali/pico-drone/pico/pico-examples/build/usb/device/tinyusb_device_examples/midi_test/pico-sdk/cmake_install.cmake")
 
 endif()
 

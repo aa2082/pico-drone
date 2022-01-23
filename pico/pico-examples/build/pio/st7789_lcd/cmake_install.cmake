@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/pio/st7789_lcd
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/pio/st7789_lcd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

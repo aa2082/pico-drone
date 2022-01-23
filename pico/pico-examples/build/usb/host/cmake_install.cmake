@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/usb/host
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/usb/host
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ali/Documents/pico_drone/pico/pico-examples/build/usb/host/tinyusb_host_examples/cmake_install.cmake")
-  include("/home/ali/Documents/pico_drone/pico/pico-examples/build/usb/host/host_cdc_msc_hid/cmake_install.cmake")
+  include("/home/ali/pico-drone/pico/pico-examples/build/usb/host/tinyusb_host_examples/cmake_install.cmake")
+  include("/home/ali/pico-drone/pico/pico-examples/build/usb/host/host_cdc_msc_hid/cmake_install.cmake")
 
 endif()
 

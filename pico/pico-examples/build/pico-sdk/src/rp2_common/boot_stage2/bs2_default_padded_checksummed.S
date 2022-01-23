@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/ali/Documents/pico_drone/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/ali/pico-drone/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

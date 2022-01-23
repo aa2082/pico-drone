@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ali/Documents/pico_drone/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ali/pico-drone/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ali/Documents/pico_drone/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ali/pico-drone/pico/pico-examples/build
 
 # Utility rule file for pio_ws2812_parallel_ws2812_pio_h.
 
@@ -57,8 +57,8 @@ pio/ws2812/CMakeFiles/pio_ws2812_parallel_ws2812_pio_h: ../pio/ws2812/generated/
 
 
 ../pio/ws2812/generated/ws2812.pio.h: ../pio/ws2812/ws2812.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../../pio/ws2812/generated/ws2812.pio.h"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/ws2812 && ../../pioasm/pioasm -o c-sdk /home/ali/Documents/pico_drone/pico/pico-examples/pio/ws2812/ws2812.pio /home/ali/Documents/pico_drone/pico/pico-examples/pio/ws2812/generated/ws2812.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../../pio/ws2812/generated/ws2812.pio.h"
+	cd /home/ali/pico-drone/pico/pico-examples/build/pio/ws2812 && ../../pioasm/pioasm -o c-sdk /home/ali/pico-drone/pico/pico-examples/pio/ws2812/ws2812.pio /home/ali/pico-drone/pico/pico-examples/pio/ws2812/generated/ws2812.pio.h
 
 pio_ws2812_parallel_ws2812_pio_h: pio/ws2812/CMakeFiles/pio_ws2812_parallel_ws2812_pio_h
 pio_ws2812_parallel_ws2812_pio_h: ../pio/ws2812/generated/ws2812.pio.h
@@ -72,10 +72,10 @@ pio/ws2812/CMakeFiles/pio_ws2812_parallel_ws2812_pio_h.dir/build: pio_ws2812_par
 .PHONY : pio/ws2812/CMakeFiles/pio_ws2812_parallel_ws2812_pio_h.dir/build
 
 pio/ws2812/CMakeFiles/pio_ws2812_parallel_ws2812_pio_h.dir/clean:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/ws2812 && $(CMAKE_COMMAND) -P CMakeFiles/pio_ws2812_parallel_ws2812_pio_h.dir/cmake_clean.cmake
+	cd /home/ali/pico-drone/pico/pico-examples/build/pio/ws2812 && $(CMAKE_COMMAND) -P CMakeFiles/pio_ws2812_parallel_ws2812_pio_h.dir/cmake_clean.cmake
 .PHONY : pio/ws2812/CMakeFiles/pio_ws2812_parallel_ws2812_pio_h.dir/clean
 
 pio/ws2812/CMakeFiles/pio_ws2812_parallel_ws2812_pio_h.dir/depend:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/Documents/pico_drone/pico/pico-examples /home/ali/Documents/pico_drone/pico/pico-examples/pio/ws2812 /home/ali/Documents/pico_drone/pico/pico-examples/build /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/ws2812 /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/ws2812/CMakeFiles/pio_ws2812_parallel_ws2812_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ali/pico-drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/pico-drone/pico/pico-examples /home/ali/pico-drone/pico/pico-examples/pio/ws2812 /home/ali/pico-drone/pico/pico-examples/build /home/ali/pico-drone/pico/pico-examples/build/pio/ws2812 /home/ali/pico-drone/pico/pico-examples/build/pio/ws2812/CMakeFiles/pio_ws2812_parallel_ws2812_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/ws2812/CMakeFiles/pio_ws2812_parallel_ws2812_pio_h.dir/depend
 

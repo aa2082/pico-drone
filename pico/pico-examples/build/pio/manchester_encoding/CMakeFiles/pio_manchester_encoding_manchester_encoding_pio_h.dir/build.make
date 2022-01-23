@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ali/Documents/pico_drone/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ali/pico-drone/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ali/Documents/pico_drone/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ali/pico-drone/pico/pico-examples/build
 
 # Utility rule file for pio_manchester_encoding_manchester_encoding_pio_h.
 
@@ -57,8 +57,8 @@ pio/manchester_encoding/CMakeFiles/pio_manchester_encoding_manchester_encoding_p
 
 
 pio/manchester_encoding/manchester_encoding.pio.h: ../pio/manchester_encoding/manchester_encoding.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating manchester_encoding.pio.h"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/manchester_encoding && ../../pioasm/pioasm -o c-sdk /home/ali/Documents/pico_drone/pico/pico-examples/pio/manchester_encoding/manchester_encoding.pio /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/manchester_encoding/manchester_encoding.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating manchester_encoding.pio.h"
+	cd /home/ali/pico-drone/pico/pico-examples/build/pio/manchester_encoding && ../../pioasm/pioasm -o c-sdk /home/ali/pico-drone/pico/pico-examples/pio/manchester_encoding/manchester_encoding.pio /home/ali/pico-drone/pico/pico-examples/build/pio/manchester_encoding/manchester_encoding.pio.h
 
 pio_manchester_encoding_manchester_encoding_pio_h: pio/manchester_encoding/CMakeFiles/pio_manchester_encoding_manchester_encoding_pio_h
 pio_manchester_encoding_manchester_encoding_pio_h: pio/manchester_encoding/manchester_encoding.pio.h
@@ -72,10 +72,10 @@ pio/manchester_encoding/CMakeFiles/pio_manchester_encoding_manchester_encoding_p
 .PHONY : pio/manchester_encoding/CMakeFiles/pio_manchester_encoding_manchester_encoding_pio_h.dir/build
 
 pio/manchester_encoding/CMakeFiles/pio_manchester_encoding_manchester_encoding_pio_h.dir/clean:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/manchester_encoding && $(CMAKE_COMMAND) -P CMakeFiles/pio_manchester_encoding_manchester_encoding_pio_h.dir/cmake_clean.cmake
+	cd /home/ali/pico-drone/pico/pico-examples/build/pio/manchester_encoding && $(CMAKE_COMMAND) -P CMakeFiles/pio_manchester_encoding_manchester_encoding_pio_h.dir/cmake_clean.cmake
 .PHONY : pio/manchester_encoding/CMakeFiles/pio_manchester_encoding_manchester_encoding_pio_h.dir/clean
 
 pio/manchester_encoding/CMakeFiles/pio_manchester_encoding_manchester_encoding_pio_h.dir/depend:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/Documents/pico_drone/pico/pico-examples /home/ali/Documents/pico_drone/pico/pico-examples/pio/manchester_encoding /home/ali/Documents/pico_drone/pico/pico-examples/build /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/manchester_encoding /home/ali/Documents/pico_drone/pico/pico-examples/build/pio/manchester_encoding/CMakeFiles/pio_manchester_encoding_manchester_encoding_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ali/pico-drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/pico-drone/pico/pico-examples /home/ali/pico-drone/pico/pico-examples/pio/manchester_encoding /home/ali/pico-drone/pico/pico-examples/build /home/ali/pico-drone/pico/pico-examples/build/pio/manchester_encoding /home/ali/pico-drone/pico/pico-examples/build/pio/manchester_encoding/CMakeFiles/pio_manchester_encoding_manchester_encoding_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/manchester_encoding/CMakeFiles/pio_manchester_encoding_manchester_encoding_pio_h.dir/depend
 

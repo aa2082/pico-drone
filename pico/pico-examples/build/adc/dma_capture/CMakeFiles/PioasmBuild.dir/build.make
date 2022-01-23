@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ali/Documents/pico_drone/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ali/pico-drone/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ali/Documents/pico_drone/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ali/pico-drone/pico/pico-examples/build
 
 # Utility rule file for PioasmBuild.
 
@@ -64,52 +64,52 @@ adc/dma_capture/CMakeFiles/PioasmBuild-complete: adc/dma_capture/pioasm/src/Pioa
 adc/dma_capture/CMakeFiles/PioasmBuild-complete: adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 adc/dma_capture/CMakeFiles/PioasmBuild-complete: adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
 adc/dma_capture/CMakeFiles/PioasmBuild-complete: adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/CMakeFiles
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild-complete
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/CMakeFiles
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild-complete
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
 
 adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-install: adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'PioasmBuild'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pioasm && /usr/bin/cmake -E echo_append
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pioasm && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'PioasmBuild'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/pioasm && /usr/bin/cmake -E echo_append
+	cd /home/ali/pico-drone/pico/pico-examples/build/pioasm && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
 
 adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'PioasmBuild'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-sdk/tools/pioasm
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/pioasm
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm/tmp
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm/src
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'PioasmBuild'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-sdk/tools/pioasm
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/pioasm
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm/tmp
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm/src
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
 
 adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E echo_append
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E echo_append
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
 
 adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-update: adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'PioasmBuild'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E echo_append
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'PioasmBuild'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E echo_append
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
 
 adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch: adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'PioasmBuild'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E echo_append
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'PioasmBuild'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E echo_append
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 
 adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: adc/dma_capture/pioasm/tmp/PioasmBuild-cfgcmd.txt
 adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
 adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'PioasmBuild'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pioasm && /usr/bin/cmake "-GUnix Makefiles" /home/ali/Documents/pico_drone/pico/pico-sdk/tools/pioasm
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pioasm && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'PioasmBuild'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/pioasm && /usr/bin/cmake "-GUnix Makefiles" /home/ali/pico-drone/pico/pico-sdk/tools/pioasm
+	cd /home/ali/pico-drone/pico/pico-examples/build/pioasm && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 
 adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-build: adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'PioasmBuild'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/pioasm && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'PioasmBuild'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/pioasm && $(MAKE)
 
 PioasmBuild: adc/dma_capture/CMakeFiles/PioasmBuild
 PioasmBuild: adc/dma_capture/CMakeFiles/PioasmBuild-complete
@@ -130,10 +130,10 @@ adc/dma_capture/CMakeFiles/PioasmBuild.dir/build: PioasmBuild
 .PHONY : adc/dma_capture/CMakeFiles/PioasmBuild.dir/build
 
 adc/dma_capture/CMakeFiles/PioasmBuild.dir/clean:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
 .PHONY : adc/dma_capture/CMakeFiles/PioasmBuild.dir/clean
 
 adc/dma_capture/CMakeFiles/PioasmBuild.dir/depend:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/Documents/pico_drone/pico/pico-examples /home/ali/Documents/pico_drone/pico/pico-examples/adc/dma_capture /home/ali/Documents/pico_drone/pico/pico-examples/build /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ali/pico-drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/pico-drone/pico/pico-examples /home/ali/pico-drone/pico/pico-examples/adc/dma_capture /home/ali/pico-drone/pico/pico-examples/build /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : adc/dma_capture/CMakeFiles/PioasmBuild.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/pio/uart_rx
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/pio/uart_rx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

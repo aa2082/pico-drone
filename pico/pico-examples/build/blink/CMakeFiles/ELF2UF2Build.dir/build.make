@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ali/Documents/pico_drone/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ali/pico-drone/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ali/Documents/pico_drone/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ali/pico-drone/pico/pico-examples/build
 
 # Utility rule file for ELF2UF2Build.
 
@@ -64,52 +64,52 @@ blink/CMakeFiles/ELF2UF2Build-complete: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF
 blink/CMakeFiles/ELF2UF2Build-complete: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 blink/CMakeFiles/ELF2UF2Build-complete: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 blink/CMakeFiles/ELF2UF2Build-complete: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/CMakeFiles
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/CMakeFiles/ELF2UF2Build-complete
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/blink/CMakeFiles
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/blink/CMakeFiles/ELF2UF2Build-complete
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'ELF2UF2Build'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/elf2uf2 && /usr/bin/cmake -E echo_append
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/elf2uf2 && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'ELF2UF2Build'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/elf2uf2 && /usr/bin/cmake -E echo_append
+	cd /home/ali/pico-drone/pico/pico-examples/build/elf2uf2 && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
 
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'ELF2UF2Build'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-sdk/tools/elf2uf2
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/elf2uf2
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2/tmp
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2/src
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'ELF2UF2Build'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-sdk/tools/elf2uf2
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/elf2uf2
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2/tmp
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2/src
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E make_directory /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E echo_append
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E echo_append
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'ELF2UF2Build'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E echo_append
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'ELF2UF2Build'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E echo_append
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'ELF2UF2Build'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E echo_append
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'ELF2UF2Build'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E echo_append
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: blink/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'ELF2UF2Build'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/elf2uf2 && /usr/bin/cmake "-GUnix Makefiles" /home/ali/Documents/pico_drone/pico/pico-sdk/tools/elf2uf2
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/elf2uf2 && /usr/bin/cmake -E touch /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'ELF2UF2Build'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/elf2uf2 && /usr/bin/cmake "-GUnix Makefiles" /home/ali/pico-drone/pico/pico-sdk/tools/elf2uf2
+	cd /home/ali/pico-drone/pico/pico-examples/build/elf2uf2 && /usr/bin/cmake -E touch /home/ali/pico-drone/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'ELF2UF2Build'"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/elf2uf2 && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'ELF2UF2Build'"
+	cd /home/ali/pico-drone/pico/pico-examples/build/elf2uf2 && $(MAKE)
 
 ELF2UF2Build: blink/CMakeFiles/ELF2UF2Build
 ELF2UF2Build: blink/CMakeFiles/ELF2UF2Build-complete
@@ -130,10 +130,10 @@ blink/CMakeFiles/ELF2UF2Build.dir/build: ELF2UF2Build
 .PHONY : blink/CMakeFiles/ELF2UF2Build.dir/build
 
 blink/CMakeFiles/ELF2UF2Build.dir/clean:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/blink && $(CMAKE_COMMAND) -P CMakeFiles/ELF2UF2Build.dir/cmake_clean.cmake
+	cd /home/ali/pico-drone/pico/pico-examples/build/blink && $(CMAKE_COMMAND) -P CMakeFiles/ELF2UF2Build.dir/cmake_clean.cmake
 .PHONY : blink/CMakeFiles/ELF2UF2Build.dir/clean
 
 blink/CMakeFiles/ELF2UF2Build.dir/depend:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/Documents/pico_drone/pico/pico-examples /home/ali/Documents/pico_drone/pico/pico-examples/blink /home/ali/Documents/pico_drone/pico/pico-examples/build /home/ali/Documents/pico_drone/pico/pico-examples/build/blink /home/ali/Documents/pico_drone/pico/pico-examples/build/blink/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ali/pico-drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/pico-drone/pico/pico-examples /home/ali/pico-drone/pico/pico-examples/blink /home/ali/pico-drone/pico/pico-examples/build /home/ali/pico-drone/pico/pico-examples/build/blink /home/ali/pico-drone/pico/pico-examples/build/blink/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : blink/CMakeFiles/ELF2UF2Build.dir/depend
 

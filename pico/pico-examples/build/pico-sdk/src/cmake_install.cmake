@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-sdk/src
+# Install script for directory: /home/ali/pico-drone/pico/pico-sdk/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ali/Documents/pico_drone/pico/pico-examples/build/pico-sdk/src/common/cmake_install.cmake")
-  include("/home/ali/Documents/pico_drone/pico/pico-examples/build/pico-sdk/src/rp2_common/cmake_install.cmake")
-  include("/home/ali/Documents/pico_drone/pico/pico-examples/build/pico-sdk/src/rp2040/cmake_install.cmake")
+  include("/home/ali/pico-drone/pico/pico-examples/build/pico-sdk/src/common/cmake_install.cmake")
+  include("/home/ali/pico-drone/pico/pico-examples/build/pico-sdk/src/rp2_common/cmake_install.cmake")
+  include("/home/ali/pico-drone/pico/pico-examples/build/pico-sdk/src/rp2040/cmake_install.cmake")
 
 endif()
 

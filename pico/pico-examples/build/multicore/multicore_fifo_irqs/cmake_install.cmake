@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/multicore/multicore_fifo_irqs
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/multicore/multicore_fifo_irqs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

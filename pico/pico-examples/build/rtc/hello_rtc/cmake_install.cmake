@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/rtc/hello_rtc
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/rtc/hello_rtc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

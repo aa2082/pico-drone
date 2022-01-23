@@ -1,5 +1,5 @@
 
-/home/ali/Documents/pico_drone/pico/pico-examples/build/hello_world/usb/hello_usb.elf:     file format elf32-littlearm
+/home/ali/pico-drone/pico/pico-examples/build/hello_world/usb/hello_usb.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -46,7 +46,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
  20 .debug_frame  00000028  00000000  00000000  0000bae0  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-/home/ali/Documents/pico_drone/pico/pico-examples/build/hello_world/usb/hello_usb.elf:     file format elf32-littlearm
+/home/ali/pico-drone/pico/pico-examples/build/hello_world/usb/hello_usb.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:

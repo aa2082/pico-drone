@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/dma/channel_irq
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/dma/channel_irq
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

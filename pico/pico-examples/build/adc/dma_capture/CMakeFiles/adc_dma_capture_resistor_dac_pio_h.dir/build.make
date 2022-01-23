@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ali/Documents/pico_drone/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ali/pico-drone/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ali/Documents/pico_drone/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ali/pico-drone/pico/pico-examples/build
 
 # Utility rule file for adc_dma_capture_resistor_dac_pio_h.
 
@@ -57,8 +57,8 @@ adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h: adc/dma_capture/r
 
 
 adc/dma_capture/resistor_dac.pio.h: ../adc/dma_capture/resistor_dac.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/Documents/pico_drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating resistor_dac.pio.h"
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && ../../pioasm/pioasm -o c-sdk /home/ali/Documents/pico_drone/pico/pico-examples/adc/dma_capture/resistor_dac.pio /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/resistor_dac.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ali/pico-drone/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating resistor_dac.pio.h"
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && ../../pioasm/pioasm -o c-sdk /home/ali/pico-drone/pico/pico-examples/adc/dma_capture/resistor_dac.pio /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/resistor_dac.pio.h
 
 adc_dma_capture_resistor_dac_pio_h: adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h
 adc_dma_capture_resistor_dac_pio_h: adc/dma_capture/resistor_dac.pio.h
@@ -72,10 +72,10 @@ adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/build: adc_dma
 .PHONY : adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/build
 
 adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/clean:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture && $(CMAKE_COMMAND) -P CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/cmake_clean.cmake
+	cd /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture && $(CMAKE_COMMAND) -P CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/cmake_clean.cmake
 .PHONY : adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/clean
 
 adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/depend:
-	cd /home/ali/Documents/pico_drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/Documents/pico_drone/pico/pico-examples /home/ali/Documents/pico_drone/pico/pico-examples/adc/dma_capture /home/ali/Documents/pico_drone/pico/pico-examples/build /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture /home/ali/Documents/pico_drone/pico/pico-examples/build/adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ali/pico-drone/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ali/pico-drone/pico/pico-examples /home/ali/pico-drone/pico/pico-examples/adc/dma_capture /home/ali/pico-drone/pico/pico-examples/build /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture /home/ali/pico-drone/pico/pico-examples/build/adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/depend
 

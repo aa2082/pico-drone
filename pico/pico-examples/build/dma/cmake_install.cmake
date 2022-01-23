@@ -1,4 +1,4 @@
-# Install script for directory: /home/ali/Documents/pico_drone/pico/pico-examples/dma
+# Install script for directory: /home/ali/pico-drone/pico/pico-examples/dma
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ali/Documents/pico_drone/pico/pico-examples/build/dma/channel_irq/cmake_install.cmake")
-  include("/home/ali/Documents/pico_drone/pico/pico-examples/build/dma/control_blocks/cmake_install.cmake")
-  include("/home/ali/Documents/pico_drone/pico/pico-examples/build/dma/hello_dma/cmake_install.cmake")
+  include("/home/ali/pico-drone/pico/pico-examples/build/dma/channel_irq/cmake_install.cmake")
+  include("/home/ali/pico-drone/pico/pico-examples/build/dma/control_blocks/cmake_install.cmake")
+  include("/home/ali/pico-drone/pico/pico-examples/build/dma/hello_dma/cmake_install.cmake")
 
 endif()
 
