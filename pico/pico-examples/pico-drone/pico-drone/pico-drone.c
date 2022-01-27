@@ -80,18 +80,10 @@ static void mpu6050_read_gyro(int16_t gyro[3]) {
 
 int main() {
     
-    //stdio_init_all();
-    
-    
-    /*
-    while (true) {
-        printf("TEST2!\n");
-        sleep_ms(1000);
-    }
-    return 0;
-    */
+    stdio_init_all();
+
     // This example will use I2C0 on the default SDA and SCL pins (4, 5 on a Pico)
-    /*
+    
     i2c_init(i2c_default, 400 * 1000);
     gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
     gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
@@ -104,43 +96,17 @@ int main() {
 
     int16_t gyro[3];
                  //uh,ul,vh,vl,wh,wl
-     
-    */
     TMC6300_setup(10,11,12,13,14,15);
     while (1) {
         
-        //mpu6050_read_gyro(gyro);
+        mpu6050_read_gyro(gyro);
 
         // These are the raw numbers from the chip, so will need tweaking to be really useful.
         // See the datasheet for more information
-        //printf("%d,%d,%d\n", gyro[0], gyro[1], gyro[2]);
+        printf("%d,%d,%d\n", gyro[0], gyro[1], gyro[2]);
 
         //sleep_ms(0.125);
         
-        //TMC6300_run(10,11,12,13,14,15);
-
-        gpio_put(10,1); 
-        gpio_put(13,1);
-        sleep_ms(1);
-
-        gpio_put(13,0);
-        gpio_put(15,1);
-        sleep_ms(1);
-
-        gpio_put(10,0);
-        gpio_put(12,1);
-        sleep_ms(1);
-
-        gpio_put(15,0);
-        gpio_put(11,1);
-        sleep_ms(1);
-
-        gpio_put(12,0);
-        gpio_put(14,1);
-        sleep_ms(1);
-
-        gpio_put(11,0);
-        gpio_put(13,1);
-        sleep_ms(1);
+        TMC6300_run(10,11,12,13,14,15);
     }
 }
