@@ -24,3 +24,5 @@ to access the serial output of the RP2040, setup to display gyo outputs (X,Y,Z):
 ```
 sudo minicom -b 115200 -D /dev/ttyACM0
 ```
+
+refer to appendix A for connections
